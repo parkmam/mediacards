@@ -1,0 +1,22 @@
+/*--media card styles--*/
+*, *::after {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.outer {
+  width: 25%;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+}
+.card-text {
+  padding: 0 20px;
+}
