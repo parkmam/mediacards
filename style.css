@@ -34,3 +34,6 @@ p{text-align: center;}
   display: inline-block;
   font-size: 16px;
 }
+.card:hover .card-image {
+    filter: contrast(100%);  /*-- transitions to 100% filter on hover --*/
+}
