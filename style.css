@@ -11,9 +11,14 @@ img {
   flex-wrap: wrap;
 }
 .outer {
-  width: 25%;
   padding: 20px;
 }
+@media screen and (min-width: 550px) {
+  .outer {width: 50%;}
+}
+@media screen and (min-width: 1024px){
+@media screen and (min-width: 1280px){
+  .cards-item {width: 25%;}
 .card {
   border: 1px solid #800000;
   background-color: #800000
@@ -24,8 +29,9 @@ img {
 h1{text-align: center;}
 h1{color:black}
 h4{text-align: center;}
-p{text-align: center;}
-.button {
+p{text-align: center;
+color: white;}
+button {
   background-color: gray;
   border: none;
   color: white;
@@ -33,7 +39,4 @@ p{text-align: center;}
   text-align: center;
   display: inline-block;
   font-size: 16px;
-}
-.card:hover .card-image {
-    filter: contrast(100%);  /*-- transitions to 100% filter on hover --*/
 }
