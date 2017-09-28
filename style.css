@@ -5,6 +5,7 @@
 body {
   width: 85%;  /*-- sets width of whole body to 85% --*/
   margin: 0 auto;  /*-- centers the whole body --*/
+  background-color: red;}
 }
 img {
   width: 100%;
