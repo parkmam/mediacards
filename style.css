@@ -2,6 +2,10 @@
 *, *::after {
   box-sizing: border-box;
 }
+body {
+  width: 85%;  /*-- sets width of whole body to 85% --*/
+  margin: 0 auto;  /*-- centers the whole body --*/
+}
 img {
   width: 100%;
 }
@@ -13,12 +17,11 @@ img {
 .outer {
   padding: 20px;
 }
-@media screen and (min-width: 550px) {
-  .outer {width: 50%;}
+@media screen and (min-width: 550px) {.outer {width: 50%;}
 }
-@media screen and (min-width: 1024px){
-@media screen and (min-width: 1280px){
-  .cards-item {width: 25%;}
+@media screen and (min-width: 1024px){.outer {width: 30%;}}
+@media screen and (min-width: 1280px){.outer {width: 25%;}}
+
 .card {
   border: 1px solid #800000;
   background-color: #800000
@@ -26,11 +29,17 @@ img {
 .card-text {
   padding: 0 20px;
 }
-h1{text-align: center;}
-h1{color:black}
-h4{text-align: center;}
+h1{text-align: center;
+font-family: 'Alegreya Sans', sans-serif;
+color:black;}
+h4{text-align: center;
+font-family: 'Roboto Slab', serif;
+color: white;
+font-size: 20px}
 p{text-align: center;
-color: white;}
+color: white;
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 20px;}
 button {
   background-color: gray;
   border: none;
@@ -39,4 +48,5 @@ button {
   text-align: center;
   display: inline-block;
   font-size: 16px;
+  font-family: 'Roboto Slab', serif;
 }
