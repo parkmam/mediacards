@@ -29,24 +29,35 @@ img {
 .card-text {
   padding: 0 20px;
 }
-h1{text-align: center;
-font-family: 'Alegreya Sans', sans-serif;
-color:black;}
-h4{text-align: center;
+h1 {
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  color:black;
+}
+h4 {
+  text-align: center;
 font-family: 'Roboto Slab', serif;
 color: white;
 font-size: 20px}
-p{text-align: center;
-color: white;
-font-family: 'Alegreya Sans', sans-serif;
-font-size: 20px;}
+p {
+  text-align: center;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;}
+
 button {
   background-color: gray;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   font-family: 'Roboto Slab', serif;
+}
+button:hover {
+  background-color: #333;
+}
+footer p {
+  color: black;
 }
